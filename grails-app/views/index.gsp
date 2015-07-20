@@ -106,13 +106,26 @@
 			<p>
 			<p>
 			<h1> PARABÉNS VOCÊS SÃO OS CARA DO GRAILS</h1>
-			<p>
-			<p>
+			<br>
+			<br>
+			<ul>
+  				<li>Jacks</li>
+  				<li>Denis</li>
+  				<li>Shalton</li>
+  				<li>Claudio</li>
+			</ul>
+
+			<br>
+			<br>
 			<h1> Vocês querem que eu <b>PARE</b> ou <i>CONTINUE</i>?? </h1>
-			<p>
-			<p>
-			<p>
-			
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h1> Abaixo mensagem padrão do grails </h1>
+			<br>
 			<h1>Welcome to Grails</h1>
 			<p>Congratulations, you have successfully started your first Grails application! At the moment
 			   this is the default page, feel free to modify it to either redirect to a controller or display whatever
