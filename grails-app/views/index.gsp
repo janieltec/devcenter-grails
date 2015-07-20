@@ -103,6 +103,8 @@
 			</ul>
 		</div>
 		<div id="page-body" role="main">
+			<h1> Parabéns Vocês São os Caras do Grails </h1>
+			<h1> Vocês querem que eu <b>PARE</b> ou <i>CONTINUE</i>?? </h1>
 			<h1>Welcome to Grails</h1>
 			<p>Congratulations, you have successfully started your first Grails application! At the moment
 			   this is the default page, feel free to modify it to either redirect to a controller or display whatever
