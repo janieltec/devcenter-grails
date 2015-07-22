@@ -105,7 +105,7 @@
 		<div id="page-body" role="main">
 			<p>
 			<p>
-			<h1> PARABÉNS PELO TESTE 001!!!</h1>
+			<h1> PARABÉNS 1000!!!</h1>
 			<br>
 			<br>
 			<ul>
