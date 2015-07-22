@@ -105,11 +105,14 @@
 		<div id="page-body" role="main">
 			<p>
 			<p>
-<<<<<<< master
-			<h1> PARABÉNS 1002!!!</h1>
-=======
-			<h1> PARABÉNS PELO TESTE!!!</h1>
->>>>>>> e54dd69 Teste 02
+
+			<h1> Perfil</h1>
+			<ul>
+  				<li>Usuário</li>
+  				<li>Autorizador</li>
+  				<li>Operador</li>
+  			</ul>
+			<h1> Equipe</h1>
 			<br>
 			<br>
 			<ul>
@@ -117,15 +120,9 @@
   				<li>Denis</li>
   				<li>Shalton</li>
   				<li>Claudio</li>
+  				<li>Janiel</li>
 			</ul>
 
-			<br>
-			<br>
-			<h1> Vocês querem que eu <b>PARE</b> ou <i>CONTINUE</i>?? </h1>
-			<br>
-			<br>
-			<br>
-			<br>
 			<br>
 			<br>
 			<h1> Abaixo mensagem padrão do grails </h1>
