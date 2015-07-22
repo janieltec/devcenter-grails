@@ -105,7 +105,11 @@
 		<div id="page-body" role="main">
 			<p>
 			<p>
-			<h1> PARABÉNS 1000!!!</h1>
+<<<<<<< master
+			<h1> PARABÉNS 1001!!!</h1>
+=======
+			<h1> PARABÉNS PELO TESTE!!!</h1>
+>>>>>>> e54dd69 Teste 02
 			<br>
 			<br>
 			<ul>
