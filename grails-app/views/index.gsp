@@ -83,22 +83,64 @@
 	<body>
 		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div id="status" role="complementary">
-			<h1>Perfil</h1>
+			<h1>Application Status</h1>
 			<ul>
-				<li>Usuário</li>
-				<li>Autorizador</li>
-  				<li>Operador</li>
+				<li>App version: <g:meta name="app.version"/></li>
+				<li>Grails version: <g:meta name="app.grails.version"/></li>
+				<li>Groovy version: ${GroovySystem.getVersion()}</li>
+				<li>JVM version: ${System.getProperty('java.version')}</li>
+				<li>Reloading active: ${grails.util.Environment.reloadingAgentEnabled}</li>
+				<li>Controllers: ${grailsApplication.controllerClasses.size()}</li>
+				<li>Domains: ${grailsApplication.domainClasses.size()}</li>
+				<li>Services: ${grailsApplication.serviceClasses.size()}</li>
+				<li>Tag Libraries: ${grailsApplication.tagLibClasses.size()}</li>
 			</ul>
-			<h1>Equipe</h1>
+			<h1>Installed Plugins</h1>
 			<ul>
-				<li>Jacks</li>
+				<g:each var="plugin" in="${applicationContext.getBean('pluginManager').allPlugins}">
+					<li>${plugin.name} - ${plugin.version}</li>
+				</g:each>
+			</ul>
+		</div>
+		<div id="page-body" role="main">
+			<p>
+			<p>
+
+			<h1> Perfil</h1>
+			<ul>
+  				<li>Usuário</li>
+  				<li>Autorizador</li>
+  				<li>Operador</li>
+  			</ul>
+			<h1> Equipe</h1>
+			<br>
+			<br>
+			<ul>
+  				<li>Jacks</li>
   				<li>Denis</li>
   				<li>Shalton</li>
   				<li>Claudio</li>
   				<li>Janiel</li>
 			</ul>
-		</div>
-		
+
+			<br>
+			<br>
+			<h1> Abaixo mensagem padrão do grails </h1>
+			<br>
+			<h1>Welcome to Grails</h1>
+			<p>Congratulations, you have successfully started your first Grails application! At the moment
+			   this is the default page, feel free to modify it to either redirect to a controller or display whatever
+			   content you may choose. Below is a list of controllers that are currently deployed in this application,
+			   click on each to execute its default action:</p>
+
+			<div id="controller-list" role="navigation">
+				<h2>Available Controllers:</h2>
+				<ul>
+					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
+						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
+					</g:each>
+				</ul>
+			</div>
 		</div>
 	</body>
 </html>
